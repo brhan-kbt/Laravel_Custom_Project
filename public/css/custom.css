@@ -1,0 +1,106 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .container {
+    height: 80px;
+}
+
+.navbar .container .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar .container .navbar-nav .nav-item .nav-link:hover {
+    color: red;
+}
+.dropdown-menu {
+    background-color: rgb(30, 209, 105);
+    margin: 1px -15px;
+}
+.dropdown-menu .dropdown-item {
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.dropdown-menu .dropdown-item:hover {
+    color: red;
+    background-color: rgb(10, 223, 99);
+}
+
+.navbar .navbar-brand {
+    color: rgb(17, 0, 255);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    margin: -15px;
+    padding-left: 20px;
+    background-color: rgb(10, 223, 99);
+    flex-grow: 1;
+    align-items: center;
+}
+
+.navbar-toggler-icon {
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url(/images/Icon.png) !important;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+}
+
+.row_width {
+    max-width: 80%;
+    margin-top: 30px;
+}
+
+.header_separator {
+    max-width: 80%;
+}
+/* 
+.first_column {
+} */
+
+.main-div {
+    background-color: rgb(160, 211, 255);
+}
+.navbar-bgc {
+    background-color: rgb(10, 223, 99);
+}
+
+.edit_contact {
+    background-color: rgb(252, 252, 252) !important;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-weight: bold;
+}
+.mapw iframe {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.reg-row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.login-row {
+    height: calc(100% -100px);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.login-card {
+    height: 310px;
+    font-weight: bold;
+}
